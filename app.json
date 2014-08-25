@@ -1,6 +1,16 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express 4",
+  "name": "HackFlowy",
+  "description": "Workflowy clone, built using Backbone.js & Socket.io",
+  "keywords": ["express", "backbone", "socket.io"],
+  "website": "https://github.com/desyncr/HackFlowy",
   "repository": "https://github.com/desyncr/HackFlowy",
-  "keywords": ["node", "express", "static"]
+  "scripts": {
+    "postdeploy": ""
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "addons": [
+    "heroku-postgresql:dev"
+  ]
 }
